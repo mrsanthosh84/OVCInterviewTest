@@ -15,7 +15,7 @@ class App extends Component {
         </header>
         <br />
         <Router>
-          <div className="col-md-6">
+          <div>
             <Switch>
               <Route path="/" exact component={Table} />
               <Route path="/user-post" exact component={UserPost} />
